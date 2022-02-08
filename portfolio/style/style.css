@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+body{
+  margin: 0;
+  font-family: 'Yomogi', cursive;
+}
+
+h1,h2,h3,p{
+  margin: 0;
+}
+
+img{
+  vertical-align: bottom;
+}
+
+.wrapper{
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 30px 4%;
+}
+
+header{
+  text-align: center;
+}
+
+.profiimg{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+h2{
+  text-align: center;
+
+}
+
+.myskill{
+  background-color: #f1f1f1;
+}
+
+.myskill ul{
+  list-style: none;
+  margin-top: 30px;
+  padding:0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.skill1{
+  background-color: lightcoral;
+}
+
+.skill2{
+  background-color: lightseagreen;
+}
+
+.skill3{
+  background-color: mediumpurple;
+}
+
+.myskill ul li{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color:mintcream;
+  font-weight: bolder;
+}
+
+.wrapper1{
+  margin: 50px auto;
+  max-width: 700px;
+}
+
+.imgphoto{
+  width: 700px;
+  height: auto;
+}
+
+.wrapper1 h2{
+  padding-top: 0px;
+  padding-bottom: 30px;
+  margin-top: -10px;
+}
+
+h3,p{
+  margin-top: 5px;
+}
+
+footer{
+  background-color: black;
+  color: antiquewhite;
+  text-align: center;
+  height: auto;
+  margin-top: auto;
+}
